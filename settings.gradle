@@ -1,0 +1,6 @@
+include ':module_main'
+include ':module_activity'
+include ':lib_base'
+include ':module_notification'
+include ':module_app'
+rootProject.name = "Test"
