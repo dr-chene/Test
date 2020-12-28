@@ -22,5 +22,8 @@ class MainActivity : AppCompatActivity() {
         binding.moduleAppBtnToActivity.setOnClickListener {
             ARouter.getInstance().build("/test/a/activity").navigation()
         }
+        binding.moduleAppBtnToNotification.setOnClickListener {
+            ARouter.getInstance().build("/notification/activity").navigation()
+        }
     }
 }

@@ -2,4 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.module_notification">
 
+    <application android:theme="@style/Theme.Test">
+        <activity android:name=".NotificationIntentActivity"/>
+        <activity android:name=".NotificationActivity" />
+        <receiver android:name=".NotificationActivity$ReplyBroadCastReceiver"/>
+    </application>
+
 </manifest>
